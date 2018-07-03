@@ -20,10 +20,10 @@ class Person {
 var people: Person[] = [
     { 'id': 1, 'name': 'Todd Motto', age: 25 },
     { 'id': 2, 'name': 'Chris Dungan', age: 58 },
-    { 'id': 3, 'name': 'Jonathan Chaiken', age: 39 },
-    { 'id': 4, 'name': 'Raf Wlaz', age: 48 },
-    { 'id': 5, 'name': 'Jason Camp', age: 45 },
-    { 'id': 6, 'name': 'Jared Tait', age: 42 }
+    { 'id': 3, 'name': 'Jonathan', age: 39 },
+    { 'id': 4, 'name': 'Joe', age: 48 },
+    { 'id': 5, 'name': 'Tim', age: 45 },
+    { 'id': 6, 'name': 'Jared', age: 42 }
 ];
 
 var report = (id, name) => `id: ${id} name: ${name}`;
